@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Designer from './Components/Designer';
+import Preview from './Components/Preview';
+import Logic from './Components/Logic';
+import Jsoneditor from './Components/Jsoneditor';
+import Embedsurvey from './Components/Embedsurvey';
+import Translation from './Components/Translation';
+import About from './Components/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <BrowserRouter>
+      <Header/>
+   <Routes>
+    <Route path='/' element={<Designer/>}/>
+    <Route path='/preview' element={<Preview/>}/>
+    <Route path='/logic' element={<Logic/>}/>
+    <Route path='/json' element={<Jsoneditor/>}/>
+    <Route path='/embed' element={<Embedsurvey/>}/>
+    <Route path='/translation' element={<Translation/>}/>
+    <Route path='/about' element={<About/>}/>
+   </Routes>
+   </BrowserRouter>
+   </>
   );
 }
 

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+:root{
+    --border: 3px solid #19B394;
+    --font: 500;
+    --pad:12px
+}
+
+li{
+    list-style: none;
+    
+}
+.nav{
+    /* height: 20vh; */
+    background-color: #FFFFFF;
+}
+.nav .main-nav{
+    position: relative;
+    display: flex;
+    /* padding-top: 80px; */
+    justify-content: center;
+    align-items: end;
+    /* background-color: red; */
+
+}
+.main-nav .div1{
+    padding: 10px;
+}
+.main-nav .div1:hover{
+    background: #F3F3F3;
+    /* padding: 10px; */
+}
+
+/* .nav .main-nav .nav1:focus{
+    font-weight: var(--font);
+    border-bottom: var(--border);
+    padding-bottom: var(--pad);
+} */
+/* .nav .main-nav .nav1:hover{
+    background: #D6D6D6;
+    padding: 10px 10px;
+} */
+.nav .main-nav .nav-div1 .nav1:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 {
+    padding: 10px 10px;
+}
+.nav .main-nav  .nav-div1:hover{
+    background: #D6D6D6;
+    /* padding: 10px; */
+}
+.nav .main-nav .nav-div1 .nav2:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 .nav3:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 .nav4:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 .nav5:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 .nav6:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav .nav-div1 .nav7:focus{
+    font-weight: var(--font);
+    padding-bottom: var(--pad);
+    border-bottom: var(--border);
+}
+.nav .main-nav ul{
+    display: flex;
+   justify-content: flex-start;
+   padding-left: 0;
+}
+.nav .main-nav ul li{
+   
+    padding: 0 20px;
+}
+
+/* Css For Arrows */
+.arrow-section{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height:20vh;
+    width: 421px;
+    /* background-color: blue; */
+}
+.arrow-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-section  .arrow-items{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 15px;
+}
+.arrow-section .arrow-items .radio{
+    border-right: 1px solid #D6D6D6;
+}
+.arrow-section .arrow-items .radio .btnfocus:hover{
+    background: rgb(223, 218, 218);
+}
+.arrow-section .icons{
+    border-right: 1px solid#D6D6D6;
+}
+.arrow-section .arrow-items button{
+    border: none;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 25px;
+    color:#D6D6D6;
+}
+.arrow-section .arrow-items button:focus{
+    color: grey;
+}
+.arrow-section .btn{
+    border: none;
+    font-size: 24px;
+}
+.arrow-section .btn:focus{
+    background:#F3F3F3;
+    color: #19B394;
+}
