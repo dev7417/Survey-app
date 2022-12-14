@@ -45,7 +45,7 @@ export default function Data() {
           <label htmlFor="Clear Invisible values" className='data-label' id='browsers'>Clear Invisible Values</label>
           <div className="select">
           <select name="" id="">
-            <option value="">Never</option>
+            <option value="Never">Never</option>
             <option value="">When the survey is completed</option>
             <option value="">When the question becomes hidden</option>
             <option value="">When the question or its panel/page becomes...</option>

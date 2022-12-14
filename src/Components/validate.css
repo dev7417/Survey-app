@@ -1,0 +1,49 @@
+.validate-content .main-validate{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 6px 8px;
+}
+.validate-content .main-validate:hover{
+    background-color:#E6E5E6;
+    color: #000;
+}
+.validate-content .main-validate:focus{
+    background-color: #fff;
+    color: #000 !important;
+}
+.validate-content .main-validate h4{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    color:#7a777a;
+}
+
+.val-input-field .input-fields .check-text{
+    padding-top: 30px;
+}
+.val-input-field .input-fields .checkbox-container{
+    padding-left: 22px;
+}
+
+.val-label-div{
+    padding-top: 15px;
+    padding-left: 22px;
+}
+
+.val-select{
+    padding-top: 5px;
+    margin-left: 22px;
+}
+
+.val-select select{
+    width: 350px;
+    height: 40px;
+}
+.val-select select:focus{
+    border: 1px solid #19B394;
+}
+.val-select select:hover{
+    cursor: pointer;
+}

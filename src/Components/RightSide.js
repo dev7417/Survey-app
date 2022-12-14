@@ -8,6 +8,7 @@ import Navigation from './Navigation';
 import Question from './Question';
 import Logic from './Logic';
 import Data from './Data';
+import Validation from './Validation';
 
 export default function RightSide() {
   return (
@@ -23,6 +24,7 @@ export default function RightSide() {
         <Pages/>
         <Logic/>
         <Data/>
+        <Validation/>
         </div>
     </div>
     {/* </Scrollbar> */}
