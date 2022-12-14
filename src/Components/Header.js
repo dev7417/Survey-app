@@ -16,7 +16,7 @@ export default function Header() {
         <div className="main-nav">
           <ul>
             <div className='nav-div1 focus'>
-              <li><NavLink className='nav1 py-2 px-2' to='/' style={{ textDecoration: 'none', color: '#000', }}>Designer</NavLink></li>
+              <li><NavLink className='nav1 px-2' to='/' style={{ textDecoration: 'none', color: '#000', }}>Designer</NavLink></li>
             </div>
             <div className="nav-div1">
               <li><NavLink className='nav2' to='/preview' style={{ textDecoration: 'none', color: '#000' }} >preview</NavLink></li>

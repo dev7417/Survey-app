@@ -1,0 +1,50 @@
+.survey-main .survey-content{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 8px 8px;
+}
+.survey-main .survey-content:hover{
+    background-color:#E6E5E6;
+    color: #000;
+}
+.survey-main .survey-content:focus span{
+    /* background-color: #fff; */
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.survey-main .survey-content h4{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: normal;
+    color:#7a777a;
+}
+.input-fields{
+    padding: 5px 20px;
+    align-items: center;
+}
+
+::placeholder{
+    color: #000;
+}
+
+.fir-btn, .sec-btn, .thir-btn, .frt-btn{
+    padding: 10px 22px;
+    border: none;
+    border: 1px solid #dfdfdf;
+    background-color: #ffff;
+    transition: 0.3s;
+}
+.frt-btn{
+    padding: 10px 25px;
+}
+.fir-btn:focus,
+.sec-btn:focus,
+.thir-btn:focus,
+.frt-btn:focus{
+    color:  #19B394;
+    border: 1px solid #19B394;
+    font-weight: 400;
+}

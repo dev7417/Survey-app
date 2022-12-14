@@ -19,29 +19,37 @@ import { BsUiRadiosGrid } from "react-icons/bs";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import { BsGrid3X2Gap } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
+import { BiPen } from "react-icons/bi";
+
 import { FaPaintBrush } from "react-icons/fa";
 import { BsImage } from "react-icons/bs";
 import { OverlayTrigger } from 'react-bootstrap';
 import { Popover } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 
 
 
 
 
 import { CiGrid32 } from "react-icons/ci";
+import RightSide from './RightSide';
 
 
 
 export default function Designer() {
+  
   const popover = (
     <Popover id="popover-basic">
       <Popover.Header style={{backgroundColor:'#fff'}} as="h3">
         <div className="pop-sec">
           <div className="pop-icons">
+            <div className="popicons-1">
             <div className="icons">
               <span style={{fontSize:'20px', color:'#909090'}}><BsUiRadiosGrid/></span>
               <span className='px-2 py-3'  style={{paddingTop:'10px',fontWeight:'normal'}}>Single-Choice Matrix</span>
             </div>
+            </div>    
+
             <div className="icons">
               <span style={{fontSize:'20px', color:'#909090'}}><BsFillGrid3X3GapFill/></span>
               <span className='px-2' style={{fontWeight:'normal'}}>Multiple-Choice Matrix</span>
@@ -55,17 +63,25 @@ export default function Designer() {
         </div>
       </Popover.Header>
       <Popover.Body>
-      <div className="icons">
+       
+
+        
+      <div className="icons" >
               <span style={{fontSize:'24px', color:'#909090'}}><BiCodeAlt/></span>
               <span className='px-2' style={{fontSize:'16px'}}>HTML</span>
             </div>
-            <div className="icons">
+           
+            <div className="icons py-2">
               <span style={{fontSize:'24px', color:'#909090'}}><FaPaintBrush/></span>
               <span className='px-2' style={{fontSize:'16px'}}>Expression (read-only)</span>
             </div>
-            <div className="icons">
+            <div className="icons py-2">
               <span style={{fontSize:'24px', color:'#909090'}}><BsImage/></span>
-              <span className='px-2' style={{fontSize:'16px'}}>Expression (read-only)</span>
+              <span className='px-2' style={{fontSize:'16px'}}>Image</span>
+            </div>
+            <div className="icons py-2">
+              <span style={{fontSize:'24px', color:'#909090'}}><BiPen/></span>
+              <span className='px-2' style={{fontSize:'16px'}}>Signature</span>
             </div>
       </Popover.Body>
     </Popover>
@@ -215,10 +231,15 @@ export default function Designer() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="center-content">
+            <div className="center-content text-center">
               <div className="data">
                 <h2>Center Data</h2>
               </div>
+            </div>
+          </div>
+          <div className="col-md-4 ">
+            <div className="right-sidebar">
+              <RightSide/>
             </div>
           </div>
         </div>

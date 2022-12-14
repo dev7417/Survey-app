@@ -1,5 +1,5 @@
 .--bg {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
 }
 
 
@@ -50,8 +50,22 @@
 .pop-sec .pop-icons .icons{
     padding: 10px;
 }
-
 .pop-sec .pop-icons .icons:hover{
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #f3f3f3;
+}
+#popover-basic .icons:hover{
+    cursor: pointer;
+    background-color: #F3F3F3;
+}
+/* .pop-sec .popicons-1{
+    background-color: #19B394;
+} */
+/* .pop-sec .popicons-1:hover{
+    cursor: pointer;
+    background-color: #F3F3F3;
+} */
+
+.right-sidebar{
+    float: right;
 }

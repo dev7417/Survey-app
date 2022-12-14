@@ -8,10 +8,12 @@ import Jsoneditor from './Components/Jsoneditor';
 import Embedsurvey from './Components/Embedsurvey';
 import Translation from './Components/Translation';
 import About from './Components/About';
-
+import Modal from 'react-bootstrap/Modal';
 function App() {
   return (
+   
    <>
+    
    <BrowserRouter>
       <Header/>
    <Routes>

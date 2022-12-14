@@ -1,0 +1,70 @@
+.data-main .data-content{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 6px 8px;
+}
+.data-main .data-content:hover{
+    background-color:#E6E5E6;
+    color: #000;
+}
+.data-main .data-content:focus{
+    background-color: #fff;
+    color: #000 !important;
+}
+.data-main .data-content h4{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    color:#7a777a;
+}
+
+.data-input-fields{
+    display: flex;
+}
+.data-input-fields .data-label{
+    padding: 5px 0;
+    /* padding-top: 4px; */
+    padding-left: 40px;
+    color: #7a777a;
+    font-size: 15px;
+}
+.data-input-fields .select{
+    padding-left: 20px;
+}
+.data-input-fields select{
+    width: 300px;
+    cursor: pointer;
+    margin-left: 25px;
+    height: 40px;
+}
+.data-input-fields select:focus{
+    border: 1px solid #19B394;
+}
+.btn-box .grp-box .data-grp-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-box .grp-box .data-grp-btn .first-btn{
+    padding: 10px 45px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+}
+.btn-box .grp-box .data-grp-btn .first-btn:focus{
+    border: 1px solid #19B394;
+    color: #19B394;
+}
+.btn-box .grp-box .data-grp-btn .second-btn:focus{
+    border: 1px solid #19B394;
+    color: #19B394;
+}
+
+.btn-box .grp-box .data-grp-btn .second-btn{
+    padding: 10px 25px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+}

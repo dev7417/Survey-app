@@ -1,0 +1,223 @@
+.logic-main .logic-content{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 6px 8px;
+}
+.logic-main .logic-content:hover{
+    background-color:#E6E5E6;
+    color: #000;
+}
+.logic-main .logic-content:focus{
+    background-color: #fff;
+    color: #000 !important;
+}
+.logic-content h4{
+    /* padding: 10px 7px; */
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    color:#7a777a;
+  }
+  .main-drop{
+    border: 1px solid #dfdfdf;
+  }
+.hidden-div .name-div{
+   padding: 0px 20px;
+}
+.exp-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+.exp-div .label{
+
+}
+  .logic-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .logic-div1 .mainInputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .input-box-2{
+    width: 100px;
+  }
+  .input-fields .fields .logic-div1 .mainInputDiv .input-div1{
+    width: 50px;
+  }
+  .drop-icons .drop-icons2{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+}
+input-box{
+    width: 150px;
+    /* margin-right: 50px; */
+}
+.drop-icons .drop-icons-1{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+input{
+    border: none;
+}
+.edit-icon{
+    background-color: #fff;
+    font-size: 20px;
+}
+.textarea{
+    padding: 5px 30px;
+}
+.para{
+    padding: 10px;
+}
+.logic-trigger-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deleted-icon{
+    /* width: 65px; */
+    background-color: #fff;
+    font-size: 20px;
+    /* padding: 4px 10px; */
+    padding: 5px 0;
+    /* margin-right: 20px; */
+    /* border: 1px solid red; */
+}
+ .logic-box{
+     /* margin-top: 10px; */
+    /* padding: 0 20px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logic-box .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black; 
+    padding: 40px;
+    background-color: #fff;
+
+}
+.addNew p{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+.deleted-icon .edit{
+    padding: 0px 7px;
+    color: grey;
+}
+.deleted-icon .delete-jnj{
+    padding: 0 10px;
+    color: grey;
+}
+/* .input-icon{
+    font-size: 24px;
+    position: absolute;
+     padding-top: px;
+     right: 380px;
+} */
+.span-item{
+    position: relative;
+}
+.logic-icons .del-btn{
+    color: #b8b5b5;
+}
+
+
+.delete-jnj:hover{
+    color: red !important;
+}
+.logic-input{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logic-input .dot-icon{
+    /* border: 1px solid #dfdfdf; */
+    border: 1px solid #b8b5b5;
+    font-size: 25px;
+    background-color: #fff;
+    color: #b8b5b5;
+    cursor: pointer;
+}
+
+.logic-input .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logic-input .logic-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b8b5b5;
+    background-color: #fff;
+}
+.logic-input select{
+    width: 150px;
+    height: 38px;
+    border: 1px solid #b8b5b5;
+    background-color: #fff;
+}
+.logic-input select:focus{
+    border: 2px solid #19B394;
+}
+.logic-icons .del-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+.logic-input .logic-icons .edit-btn{
+    /* border: 1px soid grey; */
+    color: #b8b5b5;
+    cursor: pointer;
+}
+.logic-input .logic-icons .edit-btn:hover{
+    color: #19B394;
+}
+.logic-input .logic-icons .edit-btn:focus{
+    color: #19B394;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logic-exp-div{
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+
+.logic-exp-div .logic-label-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logic-exp-div .logic-label-div .label, .icons{
+    padding: 0 40px;
+    padding-top: 10px;
+}

@@ -17,14 +17,14 @@ li {
 }
 
 .nav {
-    /* height: 20vh; */
+    height: 15vh;
     background-color: #FFFFFF;
 }
 
 .nav .main-nav {
     position: relative;
     display: flex;
-    /* padding-top: 80px; */
+    padding-top: 40px;
     justify-content: center;
     align-items: end;
     /* background-color: red; */
@@ -32,11 +32,11 @@ li {
 }
 
 .main-nav .div1 {
-    padding: 10px;
+    padding: 5px;
 }
 
 .main-nav .div1:hover {
-    background: #F3F3F3;
+    /* background: #F3F3F3; */
     /* padding: 10px; */
 }
 
@@ -56,7 +56,7 @@ li {
 }
 
 .nav .main-nav .nav-div1 {
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 
 .nav .main-nav .nav-div1:hover {
@@ -107,17 +107,19 @@ li {
 }
 
 .nav .main-nav ul li {
-
+    font-size: 15px;
+    font-weight: normal;
     padding: 0 20px;
 }
 
 /* Css For Arrows */
 .arrow-section {
     display: flex;
-    justify-content: end;
-    align-items: end;
-    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    /* height: 20vh; */
     width: 421px;
+    margin-left: 190px;
     /* background-color: blue; */
 }
 
@@ -131,7 +133,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-bottom: 15px;
+    margin-bottom: -45px;
 }
 
 .arrow-section .arrow-items .radio {

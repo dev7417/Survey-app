@@ -1,0 +1,94 @@
+.pages-main .pages-content{
+    background-color: #fff;
+    color: grey;
+    border: 1px solid #dfdfdf;
+    /* padding: 6px 8px; */
+}
+
+.pages-main .pages-content:hover{
+    background-color:#E6E5E6;
+    color: #000;
+    cursor: pointer;
+}
+.span-item .spanInd{
+    padding-left: 30px;
+}
+.pages-main .pages-content:focus{
+    background-color: #fff;
+    color: #000 !important;
+    
+}
+.pages-main .pages-content h4{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: normal;
+}
+.drop-icons .drop-icons2{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+}
+::placeholder{
+    padding: 0;
+}
+/* .input-ico{
+    font-size: 24px;
+   position: absolute;
+    padding-top: px;
+    right: 380px;
+}
+.drop-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.drop-icons{
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+}
+.input-box{
+    width: 150px;
+    /* margin-right: 50px; */
+}
+.drop-icons .drop-icons1{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+input{
+    border: none;
+}
+.doted-icon{
+    width: 65px;
+    font-size: 24px;
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+.del-icon{
+    /* width: 65px; */
+    background-color: #fff;
+    font-size: 24px;
+    /* margin-right: 20px; */
+    /* border: 1px solid red; */
+}
+/* .input-icon{
+    font-size: 24px;
+    position: absolute;
+     padding-top: px;
+     right: 380px;
+} */
+.span-item{
+    position: relative;
+}
+
+
+.delete-jnj:hover{
+    color: red !important;
+}
