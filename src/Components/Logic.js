@@ -218,7 +218,7 @@ export default function Logic() {
                                   <span style={{ fontSize: '24px', padding: '4px 10px', }} onClick={() => setLogicShow(!logicShow)}><BsPencil /></span>
                                 </div>
                                 <div className='del-btn'>
-                                  <span style={{ fontSize: '24px', padding: '10px', padding: '4px 10px', }} onClick={() => handleLogicDel(item.id)}><BsFillTrashFill /></span>
+                                  <span style={{ fontSize: '24px', padding: '10px', padding:'4px 10px'}} onClick={() => handleLogicDel(item.id)}><BsFillTrashFill /></span>
                                 </div>
                               </div>
                             </div>

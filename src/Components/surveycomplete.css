@@ -1,0 +1,129 @@
+.survey-input-field .survey-label{
+ padding-left: 25px;
+}
+.survey-input-field .survey-input-box{
+    padding: 0 25px;
+}
+.checkbox-container{
+    padding-left: 20px;
+}
+.check-text{
+    padding-top: 30px;
+}
+
+.label2{
+    padding-top: 20px;
+}
+
+.dynamic-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dy-label{
+    padding-right: 145px;
+}
+
+.dyn-input-sec{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+   
+}
+.dyn-input-sec .input1{
+    width: 125px;
+    border: 1px solid #000;
+    border-right: none;
+}
+.dyn-input-sec .input2{
+    width: 125px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+
+}
+.dyn-icon-sec{
+    border: 1px solid #000;
+    border-left: none;
+    padding: 1px 0px;
+    background-color: #fff;
+}
+.dyn-icon-sec .survey-edit:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.dyn-icon-sec .survey-del:hover{
+    color: red;
+    cursor: pointer;
+}
+.survey-exp-main{
+    margin-left: 40px;
+    border: 1px solid #000;
+    width: 329px;
+}
+.survey-exp-label .survey-exp-label{
+    display: flex;
+    justify-content: space-between;
+}
+.survey-expr-input .surveys-inputs{
+    padding: 10px 20px;
+}
+.main-survey2{
+    /* display: flex; */
+   /* margin: 10px 34px;
+    border: 1px solid #000; */
+    /* border: 1px solid #000; */
+}
+.main-survey2 .main-survey2-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.survey2-input .border-box{
+    width: 350px;
+    display: flex;
+}
+.survey2-input{
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 1px solid grey;
+    margin: 0px 32px;
+    /* align-items: center; */
+}
+.survey2-input .border-box .survey2-input-1{
+    width: 130px;
+}
+
+.survey2-input .border-box .survey-2-input-2{
+    width: 130px;
+}
+.survey2-dyn-icons{
+   
+        /* border: 1px solid #000; */
+        border-left: none;
+        padding: 1px 0px;
+        background-color: #fff;
+    
+}
+.survey2-dyn-icons .survey-edit:hover{
+color: aqua;
+}
+.survey2-dyn-icons .survey-del:hover{
+    color: red;
+}
+.survey2-exp-label{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.survey-exp2-input{
+   margin: 4px 10px;
+}
+.markup-div .markup-text{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.markup-text .p-text{
+    font-size: 15px;
+}
