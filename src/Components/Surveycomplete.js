@@ -48,6 +48,12 @@ export default function Surveycomplete() {
         setExpData([...expData, { id: expIncrement }])
         setexpIncrement(expIncrement + 1)
     }
+    const handleExpDelete = (index) =>{
+      const newData = expData.filter((item)=>{
+            return (item.id!==index)
+        })
+        setExpData(newData)
+    }
     return (
 
         <>
@@ -170,7 +176,7 @@ export default function Surveycomplete() {
                                                 </div>
                                                 <div className="survey2-dyn-icons">
                                                     <span className='survey-edit' style={{ fontSize: '24px', padding: '0px 7px', cursor: 'pointer' }} onClick={()=>setShow(!show)}><BsPencil /></span>
-                                                    <span className='survey-del' style={{ fontSize: '24px', padding: '0px 7px', cursor: 'pointer' }} ><BsFillTrashFill /></span>
+                                                    <span className='survey-del' style={{ fontSize: '24px', padding: '0px 7px', cursor: 'pointer' }} onClick={()=>handleExpDelete(item.id)}><BsFillTrashFill /></span>
                                                 </div>
                                             </div>
                                             {show &&(
