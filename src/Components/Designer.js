@@ -25,14 +25,8 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsImage } from "react-icons/bs";
 import { OverlayTrigger } from 'react-bootstrap';
 import { Popover } from 'react-bootstrap';
-import Modal from 'react-bootstrap/Modal';
-
-
-
-
-
-import { CiGrid32 } from "react-icons/ci";
 import RightSide from './RightSide';
+import CenterData from './CenterData';
 
 
 
@@ -90,7 +84,7 @@ export default function Designer() {
     <>
       <div className="container-fluid --bg">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-1 col-lg-2 ----bg">
             <div className="side-tool">
               <div className="tool">
                 <div className="tools-item">
@@ -230,14 +224,10 @@ export default function Designer() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="center-content text-center">
-              <div className="data">
-                <h2>Center Data</h2>
-              </div>
-            </div>
+          <div className="col-md-7">
+                <CenterData/>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-2 col-lg-2">
             <div className="right-sidebar">
               <RightSide/>
             </div>

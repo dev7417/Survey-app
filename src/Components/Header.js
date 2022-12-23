@@ -49,7 +49,7 @@ export default function Header() {
             {/* <div className='action-bar' style={{height:'15px;'}}>
               <span style={{fontSize:'30px'}}><RxDividerVertical/></span>
             </div> */}
-            <div className="radio mx-2 ">
+            <div className="radio">
               <button className='btn'><BsUiRadios /></button>
               <button className='btn btnfocus' style={{ color: '#909090' }}><BsEraser /></button>
 

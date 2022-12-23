@@ -4,6 +4,9 @@
     border: 1px solid #dfdfdf;
     /* padding: 6px 8px; */
 }
+.pages-main{
+    background-color: #f3f3f3;
+}
 
 .pages-main .pages-content:hover{
     background-color:#E6E5E6;
@@ -52,7 +55,7 @@
     flex-direction: row; */
 }
 .input-box{
-    width: 150px;
+    width: 180px;
     /* margin-right: 50px; */
 }
 .drop-icons .drop-icons1{
@@ -62,12 +65,17 @@
     flex-direction: row;
     align-items: center;
 }
+.input-box-3{
+    background-color: #ffff;
+    width: 50px;
+    height: 40px;
+}
 input{
     border: none;
 }
 .doted-icon{
-    width: 65px;
-    font-size: 24px;
+    width: 30px;
+    font-size: 25px;
     background-color: #fff;
     /* border: 1px solid red; */
 }

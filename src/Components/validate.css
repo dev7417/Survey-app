@@ -4,6 +4,9 @@
     border: 1px solid #dfdfdf;
     padding: 6px 8px;
 }
+.validate-content{
+    background-color: #f3f3f3;
+}
 .validate-content .main-validate:hover{
     background-color:#E6E5E6;
     color: #000;
@@ -34,11 +37,11 @@
 
 .val-select{
     padding-top: 5px;
-    margin-left: 22px;
+    margin-left: 20px;
 }
 
 .val-select select{
-    width: 350px;
+    width: 300px;
     height: 40px;
 }
 .val-select select:focus{

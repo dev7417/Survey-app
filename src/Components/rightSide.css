@@ -19,10 +19,11 @@
     /* background-color: green; */
     /* width: 32vw; */
     height: 700px;
-    width: 420px;
+    width: 400px;
     overflow-x: hidden; 
      overflow-y: auto;
      border-top: 2px solid #19B394;
+     background-color: #ffff;
     /* scroll-behavior: smooth; */
     
     /* text-align:justify; */

@@ -1,0 +1,80 @@
+.timer-main .timer-content{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 6px 8px;
+}
+.timer-main{
+    background-color: #f3f3f3;
+}
+.timer-input{
+    padding-bottom: 10px;
+}
+.timer-main .timer-content:hover{
+    background-color: #E6E5E6;
+    color: #000;
+}
+.timer-main .logic-content:focus{
+    background-color: #fff;
+    color: #000;
+}
+.timer-content h4{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    color: #7a777a;
+}
+
+.timer-input .timer-input-box{
+    padding: 0px 25px
+}
+.timer-input .input-label{
+    padding: 10px 20px;
+}
+.timer-input-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer-input-buttons .buttons-2:hover{
+    border: 1px solid  #19B394;
+}
+.timer-input-buttons .btn1{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 6px 33px;
+}
+.timer-input-buttons .btn1:focus{
+    font-weight: 600;
+    color:  #19B394;
+}
+.timer-input-buttons .btn1:hover{
+   background-color: #F3F3F3; 
+}
+.timer-input-buttons .btn2:hover{
+    background-color: #F3F3F3; 
+ }
+ .timer-input-buttons .btn3:hover{
+    background-color: #F3F3F3; 
+ }
+.timer-input-buttons .btn2{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 6px 40px;
+
+}
+.timer-input-buttons .btn2:focus{
+    font-weight: 600;
+    color:  #19B394;
+}
+.timer-input-buttons .btn3:focus{
+    font-weight: 600;
+    color:  #19B394;
+}
+.timer-input-buttons .btn3{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 6px 35px;
+
+}

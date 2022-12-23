@@ -37,7 +37,7 @@ export default function Data() {
         <div className="data-content">
           <h4 onClick={()=>setToggle(!toggle)}><span>Data</span></h4>
         </div>
-      </div>
+     
       {toggle &&(
         <>
        <div className="data-input-fields">
@@ -60,7 +60,7 @@ export default function Data() {
             </div>
             </div>
           </div>
-          <div class="checkbox-container" style={{paddingLeft:'45px'}}>
+          <div class="checkbox-container" style={{paddingLeft:'30px'}}>
                 <label class="checkbox-label">
                   <input type="checkbox" />
                   <span class="mark"></span>
@@ -68,7 +68,7 @@ export default function Data() {
 
               </div>
               <div className='data'> <span>Save partial survey results in progress</span> </div>
-              <div class="checkbox-container" style={{paddingLeft:'45px'}}>
+              <div class="checkbox-container" style={{paddingLeft:'30px'}}>
                 <label class="checkbox-label">
                   <input type="checkbox" />
                   <span class="mark"></span>
@@ -82,6 +82,7 @@ export default function Data() {
        </div>
         </>
       )}
+       </div>
     </>
   )
 }

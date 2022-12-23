@@ -8,6 +8,9 @@
     background-color:#E6E5E6;
     color: #000;
 }
+.logic-main{
+    background-color: #f3f3f3;
+}
 .logic-main .logic-content:focus{
     background-color: #fff;
     color: #000 !important;
@@ -26,6 +29,12 @@
 .hidden-div .name-div{
    padding: 0px 20px;
 }
+.dyn-icon-sec1 {
+    /* border: 1px solid #000; */
+    border-left: none;
+    padding: 1px 0px;
+    background-color: #fff;
+}
 .exp-div {
     display: flex;
     flex-direction: row;
@@ -34,6 +43,16 @@
 }
 .exp-div .label{
 
+}
+.dyn-icon-sec1 .survey-edit1{
+    font-size: 24px;
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.dyn-icon-sec1 .survey-del1{
+    font-size: 24px;
+    padding: 0px 7px;
+    cursor: pointer;
 }
   .logic-div1 {
     display: flex;
@@ -46,6 +65,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  }
+  .main-drop .drop-icons .drop-icons-1 .input1{
+    width: 115px;
+  }
+  .main-drop .drop-icons .drop-icons-1 .input2{
+    width: 115px;
   }
   .input-box-2{
     width: 100px;

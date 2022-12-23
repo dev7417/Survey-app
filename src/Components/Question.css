@@ -3,7 +3,9 @@
     color: #000;
     border: 1px solid #dfdfdf;
 }
-
+.question-main{
+    background-color: #F3F3F3;
+}
 .question-main .ques-content:hover {
     background-color: #E6E5E6;
     color: #000;
@@ -33,7 +35,7 @@
 }
 
 .gen-fir-btn {
-    padding: 10px 45px;
+    padding: 10px 40px;
     border: none;
     background: #fff;
     color: #000;
@@ -45,7 +47,7 @@
     background: #fff;
     color: #000;
     border: 1px solid #dfdfdf;
-    padding: 10px 35px;
+    padding: 10px 30px;
 }
 
 .gen-thir-btn {
@@ -61,6 +63,20 @@
     color: #19B394;
     font-weight: bold;
 }
+.grp-btn .gen-fir-btn1{
+    border: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 10px 65px;
+}
+.grp-btn .gen-sec-btn2{
+    border: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    padding: 10px 60px;
+}   
 
 .gen-sec-btn:focus {
     border: 1px solid #19B394;

@@ -10,7 +10,7 @@ import { useRef } from 'react';
 
 export default function General() {
     const [toggle, setToggle] = useState(false)
-    const  [show, setShow] = useState(false)
+    const [show, setShow] = useState(false)
     const inputRef = useRef();
     const [data, setData] = useState('')
     console.log(data)
@@ -72,7 +72,7 @@ export default function General() {
                             <div className="input-fields">
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2'>Name</label>
-                                    <input type="text" className='input'/>
+                                    <input type="text" className='input' />
                                 </div>
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2'>Title</label>
@@ -88,7 +88,7 @@ export default function General() {
                                     <input type="checkbox" style={{ width: '24px' }} />
                                 </div>
                                 <div className='px-2'>
-                                    <label htmlFor="valeu">Show The Title</label>
+                                    <label htmlFor="value">Show The Title</label>
                                 </div>
                             </div>
                             <div className="input-fields">
@@ -116,68 +116,68 @@ export default function General() {
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2'>Editable or read-only</label>
                                     <div className="btn-group1">
-                                    {/* <ButtonGroup aria-label="Basic example" className='main-group' > */}
-                                    <div className="grp-btn">
-                                    <button className='left-btn'>Editable</button>
-                                    <button className='right-btn'>Read-only</button>
+                                        {/* <ButtonGroup aria-label="Basic example" className='main-group' > */}
+                                        <div className="grp-btn">
+                                            <button className='left-btn'>Editable</button>
+                                            <button className='right-btn'>Read-only</button>
+                                        </div>
+
+                                        {/* </ButtonGroup> */}
                                     </div>
-                                     
-                                              {/* </ButtonGroup> */}
-                                    </div>
-                                    
+
                                 </div>
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2'>Name</label>
-                                    <input type="text" className='input'/>
+                                    <input type="text" className='input' />
                                 </div>
 
 
 
                                 <div className="fields py-2">
-                                   
-                                    <label htmlFor="Title" className='label py-2'>Cookie Name</label> 
-                                
-                                    
-                                    <span className='spanInd' tabIndex={1234} style={{float:'right', fontSize:'20px'}} onClick={()=>setShow(!show)}><AiFillQuestionCircle/></span>
-                                   
 
-                                   {show  &&( 
-                                    <div className="txt">
-                                    <span>Cookies prevent users from filling out the same survey twice.</span>
+                                    <label htmlFor="Title" className='label py-2'>Cookie Name</label>
 
-                                    </div>
+
+                                    <span className='spanInd' tabIndex={1234} style={{ float: 'right', fontSize: '20px' }} onClick={() => setShow(!show)}><AiFillQuestionCircle /></span>
+
+
+                                    {show && (
+                                        <div className="txt">
+                                            <span>Cookies prevent users from filling out the same survey twice.</span>
+
+                                        </div>
                                     )}
-                                    <input type="text" className='input'/>
+                                    <input type="text" className='input' />
                                 </div>
-                                        
+
 
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2 '>Width mode</label>
                                     <div className="btn-group1">
-                                    {/* <ButtonGroup aria-label="Basic example" className='main-group' > */}
-                                    <div className="grp-btn">
-                                    <button className='left-btn1'>Auto</button>
-                                    <button className='middle-btn'>Static</button>
-                                    <button className='right-btn1'>Responsive</button>
+                                        {/* <ButtonGroup aria-label="Basic example" className='main-group' > */}
+                                        <div className="grp-btn">
+                                            <button className='left-btn1'>Auto</button>
+                                            <button className='middle-btn'>Static</button>
+                                            <button className='right-btn1'>Responsive</button>
+                                        </div>
+
+                                        {/* </ButtonGroup> */}
                                     </div>
-                                     
-                                              {/* </ButtonGroup> */}
-                                    </div>
-                                    
+
                                 </div>
                                 <div className="fields py-2">
                                     <label htmlFor="Title" className='label py-2'>Width (in CSS-accepted values)</label>
-                                    <input type="text" className='input'  />
+                                    <input type="text" className='input' />
                                 </div>
 
                             </div>
                         </>
 
                     )}
-                    
+
                 </div>
-              
-                
+
+
             </div>
 
         </>

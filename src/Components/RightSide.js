@@ -10,6 +10,7 @@ import Logic from './Logic';
 import Data from './Data';
 import Validation from './Validation';
 import Surveycomplete from './Surveycomplete';
+import Timer from './Timer';
 
 export default function RightSide() {
   return (
@@ -27,6 +28,7 @@ export default function RightSide() {
         <Data/>
         <Validation/>
         <Surveycomplete/>
+        <Timer/>
         </div>
     </div>
     {/* </Scrollbar> */}

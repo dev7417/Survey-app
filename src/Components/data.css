@@ -4,6 +4,9 @@
     border: 1px solid #dfdfdf;
     padding: 6px 8px;
 }
+.data-main{
+    background-color:#f3f3f3;
+}
 .data-main .data-content:hover{
     background-color:#E6E5E6;
     color: #000;
@@ -49,6 +52,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.data span{
+    font-size: 15px;
 }
 .btn-box .grp-box .data-grp-btn .first-btn{
     padding: 10px 50px;

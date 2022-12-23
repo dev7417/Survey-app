@@ -1,0 +1,360 @@
+.question-container {
+    background-color: #19B394;
+}
+
+.question-container .content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: -25px 0 0 -25px;
+}
+
+.p-content p {
+    color: #000;
+    font-size: 15px;
+}
+
+.p-content .content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.content-button .content-btn {
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px 60px;
+    background-color: #fff;
+    color: #19B394;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content-button .content-btn:hover {
+    border: 2px solid #19B394;
+    border-radius: 4px;
+}
+
+.content-btn span {
+    font-size: 19px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* .content-btn svg{
+  vertical-align: bottom;
+  font-size: 19px;
+  color: #000;
+  padding-left: 12px;
+} */
+.main-div {
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-center {
+    padding-right: 250px !important;
+    margin-top: 50px;
+}
+
+.main-div .edit-span {
+    margin-top: 10px;
+}
+
+.main-div .span1:hover {
+    background-color: #DDECE9;
+}
+
+.edit-span .span2 {
+    outline: none;
+    /* font-size: 25px; */
+    font-weight: normal;
+    border-color: #19B394;
+}
+
+.centerpage-span1 .span2:hover {
+    background-color: #DEE3D5;
+}
+
+.page-div:focus {
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+
+.edit-span .span1 {
+    color: grey;
+}
+
+.edit-span .span2:focus {
+    border: 3px solid #19B394;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.main-div .edit-span {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .copy-icons {
+    color: #FF9814;
+    font-size: 20px;
+}
+
+.icons .del-icons {
+    color: #FF9814;
+    font-size: 20px;
+}
+
+.icons span {
+    font-size: 12px;
+    /* padding: 0px 5px; */
+    color: #000;
+}
+
+.main-div .edit-span .span1 {
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: #19B394;
+}
+
+.main-div .edit-span .span1:focus {
+    border: 3px solid #19B394;
+    border-radius: 4px;
+    color: #909090;
+    background-color: #ffff;
+}
+
+.choose-file>input {
+    display: none;
+}
+
+.choose-file span {
+    width: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(179, 172, 172);
+}
+
+.icons .del-icon1 {
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+.icons .del-icon1:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.icons .edit-icon1 {
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+.icons .edit-icon1:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.choose-file span:hover {
+    color: #19B394;
+    box-shadow: 0px 16px 121px -4px rgba(25, 179, 148, 0.83);
+    -webkit-box-shadow: 0px 16px 121px -4px rgba(25, 179, 148, 0.83);
+    -moz-box-shadow: 0px 16px 121px -4px rgba(25, 179, 148, 0.83);
+}
+
+.main-border {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #19B394;
+}
+
+.page-div:hover {
+    background-color: #F4E9DC;
+}
+
+.page-div .center-side-icons .icons {
+
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.center-side-icons {
+    position: relative;
+}
+
+.center-side-icons .page1-span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.page1-span .span1-span-content {
+    margin-top: 10px;
+}
+
+.page1-span .centerpage-span1 .span2 {
+    outline: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: #909090;
+}
+
+
+.page1-span .centerpage-span2 .span3 {
+    outline: none;
+    color: #909090;
+    font-size: 15px;
+}
+
+.page1-span .centerpage-span2 .span3:focus {
+    outline: none;
+    border: 2px solid #19B394;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.page1-span .centerpage-span1 .span2:focus {
+    border: 2px solid #19B394;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.ques-content-div .ques-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ques-content-div .ques-icons span {
+    color: grey;
+}
+
+.question-div .ques-content-div {
+    position: relative;
+    margin: 4px 25px;
+    background-color: #ffff;
+}
+
+.question-div .ques-content-div:hover {
+    border: 1px solid rgb(197, 125, 125);
+    cursor: pointer;
+
+}
+
+.main-question .question1 {
+    padding: 5px 20px;
+}
+
+.main-question .ques-input {
+    padding: 0px 30px;
+}
+
+.ques-input input {
+    background-color: #EEEEEE;
+    border-radius: 4px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 17px;
+    height: 7px;
+    margin-top: 19px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.single-input button{
+    border: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 6px;
+    left: 4px;
+    bottom: 0px;
+    background-color: #FF9814;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    /* background-color: #FF9814; */
+    border: 1px solid  #000;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #FF9814;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    transform: translateX(5px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.hidden-buttons {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duplicate .dup {
+    font-size: 12px;
+}
+
+.radio-btn .req {
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.delete .del{
+    font-size: 12px;
+}

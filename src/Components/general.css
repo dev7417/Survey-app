@@ -3,6 +3,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     /* background-color: red; */
+    background-color: #F3F3F3;
 }
 .gen-main .gen-content{
   background-color: #fff;
@@ -182,7 +183,7 @@ input {
 
 
 .select{
-  width: 375px;
+  width: 350px;
   height: 40px;
   border: 1px solid #E6E5E6;
   border: #E6E5E6;
@@ -206,7 +207,7 @@ input {
     background: #fff;
     color: #000;
     border: 1px solid #dfdfdf;
-    padding: 10px 55px;
+    padding: 10px 50px;
 }
 
 .btn-group1 .right-btn:hover{
@@ -263,7 +264,7 @@ input {
   background: #fff;
   color: #000;
   border: 1px solid #dfdfdf;
-  padding: 10px 30px;
+  padding: 10px 25px;
 }
 .left-btn1:focus{
   border: 1px solid #19B394;

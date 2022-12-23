@@ -1,6 +1,10 @@
 .--bg {
     /* background-color: #f3f3f3; */
     background-color: #eee;
+    /* background-color: red; */
+}
+.----bg{
+    /* background-color: red; */
 }
 
 
@@ -68,5 +72,5 @@
 } */
 
 .right-sidebar{
-    float: right;
+    /* float: right; */
 }

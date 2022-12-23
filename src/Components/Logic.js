@@ -107,22 +107,22 @@ export default function Logic() {
                         console.log(item.id)
                         return (
                           <>
-                            <div key={index} className=' main-drop py-1'>
+                            <div key={index} className='main-drop py-1'>
                               <div className='drop-icons'>
                                 <div className='drop-icons-1'>
 
-                                  <div className='input-box'>
+                                  <div className='input1'>
                                     <input type="text" className='input' placeholder={`${item.name} ${item.id}`} />
                                   </div>
-                                  <div className='input-box'>
+                                  <div className='input2'>
                                     <input type="text" className='input' />
                                   </div>
-                                  <div className="edit-icon">
+                                  {/* <div className="edit-icon">
 
-                                  </div>
-                                  <div className='deleted-icon'>
-                                    <span className='edit' onClick={() => setShow(!show)}><BsPencil /></span>
-                                    <span onClick={() => deleteInput(item.id)} className='delete-jnj'><BsFillTrashFill /></span>
+                                  </div> */}
+                                  <div className='dyn-icon-sec1'>
+                                    <span className='survey-edit1' onClick={() => setShow(!show)}><BsPencil /></span>
+                                    <span onClick={() => deleteInput(item.id)} className='survey-del1'><BsFillTrashFill /></span>
                                   </div>
                                 </div>
                               </div>
@@ -195,7 +195,7 @@ export default function Logic() {
 
                   <div className='logic-input1' >
 
-                    {logicAdd.map((item, index) => {
+                    {logicAdd.map((item) => {
                       console.log(item)
                       return (
                         <div className='logic-input'>

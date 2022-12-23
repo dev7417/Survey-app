@@ -1,49 +1,58 @@
-.navigation-main .navigation-content{
+.navigation-main .navigation-content {
     background-color: #fff;
     color: #000;
     border: 1px solid #dfdfdf;
     padding: 6px 15px;
 }
-.navigation-main .navigation-content:hover{
-    background-color:#E6E5E6;
+
+.navigation-main .navigation-content:hover {
+    background-color: #E6E5E6;
     color: #000;
 }
-.navigation-main .navigation-content:focus{
+
+.navigation-main .navigation-content:focus {
     background-color: #fff;
     color: #000 !important;
 }
-.navigation-main .navigation-content h4{
+.navigation-main{
+    background-color: #F3F3F3;
+}
+
+.navigation-main .navigation-content h4 {
     padding-top: 10px;
     cursor: pointer;
     font-size: 15px;
     font-weight: normal;
-    color:#7a777a;
+    color: #7a777a;
 }
-FormControl:focus{
+
+FormControl:focus {
     border: 1px solid red;
 }
 
-.input-fields .fields select{
+.input-fields .fields select {
     border: 1px solid #dfdfdf;
     background-color: #fff;
 }
+
 .check::after {
     clear: both;
     display: block;
     content: "";
 }
- .checkbox-container {
-	float: left;
+
+.checkbox-container {
+    float: left;
     /* width: 50%; */
     box-sizing: border-box;
     /* text-align:center; */
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 
 /* Styling Checkbox Starts */
 .checkbox-label {
-color: white;
+    color: white;
     display: block;
     position: relative;
     margin: auto;
@@ -54,6 +63,7 @@ color: white;
     width: 24px;
     clear: both;
 }
+
 .checkbox-label input {
     position: absolute;
     opacity: 0;
@@ -62,7 +72,7 @@ color: white;
 }
 
 .checkbox-label .mark {
-	top:30px;
+    top: 30px;
     position: absolute;
     height: 24px;
     width: 24px;
@@ -72,64 +82,70 @@ color: white;
     /* border: 2px solid white; */
     border: 2px solid #dfdfdf;
 }
-.checkbox-label input:checked ~ .mark {
+
+.checkbox-label input:checked~.mark {
     background-color: white;
     border-radius: 5px;
     transform: rotate(0deg) scale(1);
-    opacity:1;
-    border: 2px solid  #19B394;
+    opacity: 1;
+    border: 2px solid #19B394;
 }
+
 .checkbox-label .mark::after {
     position: absolute;
     content: "";
     border-radius: 5px;
 }
-.checkbox-label input:checked ~ .mark::after {
-  transform: rotate(45deg) scale(1);
-  left: 8px;
-  top: 3px;
-  width: 6px;
-  height: 12px;
-  border: solid  #19B394;
-  border-width: 0 2px 2px 0;
-  border-radius: 0;
+
+.checkbox-label input:checked~.mark::after {
+    transform: rotate(45deg) scale(1);
+    left: 8px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid #19B394;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
 }
-/* For Ripple Effect */ 
+
+/* For Ripple Effect */
 .checkbox-label .mark::before {
     position: absolute;
     content: "";
     border-radius: 10px;
     border: 5px solid #19B394;
-    transform: scale(0);    
+    transform: scale(0);
 }
 
-.checkbox-label input:checked ~ .mark::before {
+.checkbox-label input:checked~.mark::before {
     left: -3px;
     top: -3px;
     width: 24px;
     height: 24px;
     border-radius: 5px;
     transform: scale(3);
-    opacity:0;   
+    opacity: 0;
     transition: all 0.3s ease-out;
 }
 
-.data{
+.data {
     padding-top: 32px;
 }
-.down-arr{
+
+.down-arr {
     position: absolute;
     right: 40px;
     top: 345px;
 }
 
-.box{
-    width: 375px;
-  height: 40px;
-  border: 1px solid #E6E5E6;
-  border: #E6E5E6;
-  padding-left: 20px;
+.box {
+    width: 350px;
+    height: 40px;
+    border: 1px solid #E6E5E6;
+    border: #E6E5E6;
+    padding-left: 20px;
 }
-.box:focus{
+
+.box:focus {
     border: 2px solid #19B394;
 }

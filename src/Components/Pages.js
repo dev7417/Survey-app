@@ -48,7 +48,7 @@ export default function Pages() {
           <h4 onClick={() => setToggle(!toggle)}><span>pages</span></h4>
 
         </div>
-      </div>
+    
       {
         toggle && (
           <>
@@ -68,6 +68,9 @@ export default function Pages() {
                     </div>
                     <div className='input-box-2'>
                       <input type="text" className='input' />
+                    </div>
+                    <div className="input-box-3">
+                      <span></span>
                     </div>
 
                   </div>
@@ -131,6 +134,7 @@ export default function Pages() {
           </>
         )
       }
+        </div>
     </>
   )
 }

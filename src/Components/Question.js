@@ -16,7 +16,7 @@ export default function Question() {
                 <div className="ques-content" tabIndex={12345}>
                     <h4 onClick={() => setToggle(!toggle)}><span>Question</span></h4>
                 </div>
-            </div>
+           
             {
                 toggle && (
                     <>
@@ -131,11 +131,11 @@ export default function Question() {
 
                             </div>
                             <div className='data1'> <span>Focus first question on a new page</span> </div>
-
                         </div>
                     </>
                 )
             }
+                            </div>
 
 
         </>
